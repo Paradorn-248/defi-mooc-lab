@@ -191,6 +191,6 @@ describe('Liquidation question 2', function () {
                 (overrides = { gasPrice: gasPrice })
             )
         ).to.be.reverted
-        console.log('Transaction reverted. No profit.')
+        console.log("Can't liquidate")
     })
 })
